@@ -1,0 +1,7 @@
+applications:
+- name: shortener
+  memory: 128M
+  default-route: true
+  buildpacks:
+  - python_buildpack
+  command: python main.py
